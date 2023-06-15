@@ -2,27 +2,6 @@ import { MemeTemplate } from "./types";
 
 const templates: MemeTemplate[] = [
   {
-    id: "disaster-girl",
-    background: {
-      src: "/disaster-girl.jpg",
-      width: 1200,
-      height: 900,
-      alt: "Disaster Girl",
-    },
-    textareas: [
-      {
-        id: "tagline",
-        top: 750,
-        left: 100,
-        width: 900,
-        height: 130,
-        text: "Something Funny",
-        size: 100,
-        color: "white",
-      },
-    ],
-  },
-  {
     id: "drake",
     background: {
       src: "/drake.jpg",
@@ -40,6 +19,7 @@ const templates: MemeTemplate[] = [
         text: "Top",
         size: 100,
         color: "black",
+        outlineColor: "white",
       },
       {
         id: "bottom",
@@ -50,6 +30,27 @@ const templates: MemeTemplate[] = [
         text: "Bottom",
         size: 100,
         color: "black",
+        outlineColor: "white",
+      },
+    ],
+  },
+  {
+    id: "disaster-girl",
+    background: {
+      src: "/disaster-girl.jpg",
+      width: 1200,
+      height: 900,
+      alt: "Disaster Girl",
+    },
+    textareas: [
+      {
+        id: "tagline",
+        top: 750,
+        left: 100,
+        width: 900,
+        height: 130,
+        text: "Something Funny",
+        size: 100,
       },
     ],
   },
@@ -70,7 +71,6 @@ const templates: MemeTemplate[] = [
         height: 320,
         text: "New",
         size: 120,
-        color: "white",
       },
       {
         id: "person",
@@ -80,7 +80,6 @@ const templates: MemeTemplate[] = [
         height: 300,
         text: "Person",
         size: 80,
-        color: "white",
       },
       {
         id: "old",
@@ -90,7 +89,6 @@ const templates: MemeTemplate[] = [
         height: 320,
         text: "Old",
         size: 100,
-        color: "white",
       },
     ],
   },
